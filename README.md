@@ -1,24 +1,15 @@
-# README
+# Epistolam ad Astra（星々へのメッセージ）
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## サービス概要
+「Epistolam ad Astra」は、もう会えない人や伝えられなかった思いを形にして宇宙（インターネット）へと放つことを目的としたサービスです。ユーザーは匿名でメッセージを投稿でき、そのメッセージは他のユーザーや配信者によって読まれ、話の種や心温まるエピソードとして共有されます。
 
-Things you may want to cover:
+## 背景ストーリー
+遥か昔、人々の未練や願いが星となって空に舞い上がる世界がありました。そんな世界には、人々のメッセージを星々へと届ける特別な使命を持つ天使、「アストラ」と、彼女の相棒であり賢者である老人博士が住んでいました。
 
-* Ruby version
+### アストラ
+アストラは人々の想いを受け取り、それを星へと変える力を持つ天使です。彼女は、人々が伝えられなかった言葉や、もう届けられない思いを優しく受け止め、それを星々へと届ける役目を担っています。
 
-* System dependencies
+### 老人博士
+老人博士は、アストラと共に人々のメッセージを受け取り、アストラに配達を頼む役割を持っています。彼はまた、メッセージの保管や管理も行い、悪意のある書き込みを見極める賢明な存在です。
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+この二人のキャラクターは、現代のテクノロジーと古代神話が融合した世界観の中で、ユーザーが抱える想いを受け止め、それを美しい星座へと変える物語を紡ぎ出しています。
