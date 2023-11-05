@@ -12,8 +12,12 @@
   </head>
 
   <body>
-    <main class="container mx-auto mt-28 px-5 flex">
+    <main class="grid grid-cols-5">
+      <div class="col-span-1">
+      </div>
       <%= yield %>
+      <div class="col-span-1">
+      </div>
     </main>
   </body>
 </html>
