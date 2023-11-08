@@ -1,14 +1,14 @@
 
 <div class="col-span-3 bg-[#0f3460]">
-    <h1 class="text-center text-[#E5E5E5] text-2xl mb-6" >辿り着いたメッセージ</h1>
+    <h1 class="text-center text-[#E5E5E5] text-2xl mt-10 mb-6" >辿り着いたメッセージ</h1>
 
 <div class="flex justify-center">
-    <%= link_to "メッセージを書く", new_message_path, class: "text-center border-2 rounded-lg bg-[#E5E5E5] mb-2" %>
+    <%= link_to "メッセージを書く", new_message_path, class: "text-center border-2 rounded-lg bg-[#E5E5E5] mb-10" %>
 </div>
 
 <ul>
     <% @messages.each do |message| %>
-    <li class="border-2 rounded-l-lg rounded-tr-lg m-2 mb-4 bg-[#E5E5E5]">
+    <li class="border-2 rounded-l-lg rounded-tr-lg mx-5 mb-5 bg-[#E5E5E5]">
         <h2 class="text-[#0f3460] text-2xl block mb-2" ><%= message.dear %></h2>
         <p class="text-[#0f3460] text-lg block mb-2" ><%= message.content %></p>
         <span class="text-[#0f3460] text-sm block mb-2" ><%= message.created_at.strftime("%Y年%m月%d日 %H:%M") %></span>
