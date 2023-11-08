@@ -9,4 +9,5 @@ Rails.application.routes.draw do
   # root "posts#index"
   
   resources :messages, only: [:index, :new, :create]
+  root "top#index"
 end
