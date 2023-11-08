@@ -39,3 +39,7 @@
 
 # Ignore pem
 *.pem
+
+# Ignore DS_Store
+.DS_Store
+*/.DS_Store
