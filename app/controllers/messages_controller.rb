@@ -1,7 +1,7 @@
 class MessagesController < ApplicationController
 
     def index
-        @messages = Message.all
+        @messages = Message.order("RANDOM()").limit(1)
     end
 
     def new
